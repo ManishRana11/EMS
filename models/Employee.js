@@ -1,10 +1,6 @@
 
 const mongoose = require('mongoose');
 const EmployeeSchema = mongoose.Schema({
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'users'
-    },
     name: {
         type: String,
         required: true
@@ -24,6 +20,9 @@ const EmployeeSchema = mongoose.Schema({
     department: {
         type: String,
 
+    },
+    profImage: {
+        type: String
     },
     date: {
         type: Date,
