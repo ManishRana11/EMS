@@ -135,6 +135,7 @@ border-radius: 10px;
     /* width: 50%; */
     /* float: left; */
     flex-direction: column;
+    flex-grow: 1;
 
 }
 .right-col .btn-edit{
