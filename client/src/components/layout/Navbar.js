@@ -19,7 +19,7 @@ const Navbar = () => {
 
         <Fragment>
             <li>
-                Hello!
+                Hello!{' '}
                 {user && user.name}
                 <span> &#128587;</span>
             </li>
