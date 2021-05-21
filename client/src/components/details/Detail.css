@@ -126,13 +126,13 @@ border-radius: 10px;
 }
 .form-list div:first-child{
     display:flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
     /* flex-direction: column; */
 }
 
 .form-list div .card{
-    width: 50%;
+    /* width: 50%; */
     /* float: left; */
     flex-direction: column;
 
